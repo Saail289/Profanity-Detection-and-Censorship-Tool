@@ -80,6 +80,27 @@ Use the following commands to set up your Colab environment:
 - The transcription accuracy may vary based on the audio quality of the video.
 - Profanity detection operates on individual tokens and may not account for context.
 
+### web app
+
+- The frontend (react) and backend (fast api) files are given in their respective folder
+- To create react app
+  
+  ``` cmd
+  npx create-react-app my-app
+  ```
+  
+- Replace the default files
+- To run the fronted
+  
+  ``` cmd
+  npm start
+  ```
+
+-  To run backend
+
+  ``` cmd
+  python main.py
+  ``` 
 
 ## Feedback
 
